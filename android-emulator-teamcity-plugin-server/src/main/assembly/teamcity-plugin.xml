@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="urn:shemas-jetbrains-com:teamcity-plugin-v1-xml">
+    <info>
+        <name>android-emulator</name>
+        <display-name>Android-Emulator</display-name>
+        <version>${project.version}</version>
+        <vendor>
+            <name>Felix Schulze</name>
+            <url>http://www.felixschulze.de/</url>
+        </vendor>
+    </info>
+    <deployment use-separate-classloader="true"/>
+</teamcity-plugin>

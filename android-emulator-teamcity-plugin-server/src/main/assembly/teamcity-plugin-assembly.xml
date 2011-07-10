@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/assembly-1.0.0.xsd">
+
+    <id>teamcity-plugin</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <formats>
+        <format>zip</format>
+    </formats>
+
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>server</outputDirectory>
+            <fileMode>0444</fileMode>
+            <directoryMode>0755</directoryMode>
+        </dependencySet>
+    </dependencySets>
+
+    <files>
+        <file>
+            <source>src/main/assembly/teamcity-plugin.xml</source>
+            <fileMode>0444</fileMode>
+            <filtered>true</filtered>
+        </file>
+        <file>
+            <source>LICENSE.txt</source>
+            <fileMode>0444</fileMode>
+        </file>
+    </files>
+
+</assembly>
