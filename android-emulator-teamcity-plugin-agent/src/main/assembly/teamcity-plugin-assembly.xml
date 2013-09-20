@@ -18,6 +18,11 @@
 
     <files>
         <file>
+            <source>src/main/assembly/teamcity-plugin.xml</source>
+            <fileMode>0444</fileMode>
+            <filtered>true</filtered>
+        </file>
+        <file>
             <source>LICENSE.txt</source>
             <fileMode>0444</fileMode>
         </file>

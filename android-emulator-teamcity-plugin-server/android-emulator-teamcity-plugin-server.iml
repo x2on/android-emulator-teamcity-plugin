@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/server" isTestSource="false" />
@@ -13,10 +12,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: de.felixschulze.teamcity:android-emulator-common:1.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:server-api:6.0.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:common-api:6.0.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:annotations:6.0.2" level="project" />
+    <orderEntry type="module" module-name="android-emulator-teamcity-plugin-common" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:server-api:8.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:common-api:8.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.jetbrains.teamcity:annotations:8.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-webmvc:2.5.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-beans:2.5.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-core:2.5.6" level="project" />
