@@ -2,7 +2,7 @@ VERSION="8.0.3"
 set -e
 if [ ! -e TeamCity-${VERSION}.tar.gz ]; then
 	echo "Downloading TeamCity-${VERSION}.tar.gz"
-    curl -O http://download.jetbrains.com/teamcity/TeamCity-${VERSION}.tar.gz
+    curl -O http://download-cf.jetbrains.com/teamcity/TeamCity-${VERSION}.tar.gz
 else
 	echo "Using TeamCity-${VERSION}.tar.gz"
 fi
